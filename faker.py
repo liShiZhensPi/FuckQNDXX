@@ -54,11 +54,11 @@ textBox_x = 520
 textBox_y = 105
 
 draw(faker,textBox_x,textBox_y,makeMatrix(130, 430, [228,228,228]))
-draw(faker,textBox_x+30,textBox_y,makeMatrix(100, 423, [206,206,206]))
+draw(faker,textBox_x+30,textBox_y,makeMatrix(100, 425, [206,206,206]))
 
 draw(faker,textBox_x+40,textBox_y+5,resize2("change.jpg",75,75))
 
-plt.imshow(faker)
+#plt.imshow(faker)
 
 #cv2.imwrite("faker.jpg",faker)
 
@@ -81,6 +81,6 @@ draw.text((textBox_y+90,textBox_x+83),u"第八季第二期的内容，你也来�
 plt.imshow(im)
 
 
-im.save("faker2.jpg")
+im.save("faker.jpg")
 
 
